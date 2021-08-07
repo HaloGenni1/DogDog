@@ -1,0 +1,29 @@
+X=MsgBox("Insert_Text",0+0,"Title")
+Copy and paste ^^^ For multiple MsgBox
+
+Options
+First Number ,1+0,
+0 - Ok
+1 - Yes / Cancel
+2 - Abort / Retry / Ignore
+3 - Yes / No / Cancel
+4 - Yes / No
+5 - Retry / Cancel
+
+Icons
+Second Number ,0+16,
+0 - No Icon
+16 - "X" Icon
+32 - "?" Icon
+48 - "!" Icon
+64 - "i" Icon
+
+To loop the MsgBox
+
+Example --------------------------------
+do
+X=MsgBox("Insert_Text",0+0,"Title")
+loop
+
+To_Close--------------------------------
+Open Task Manager to close Looped X=Msgbox 
